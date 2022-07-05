@@ -3,7 +3,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Container holding the image and the text */
+h1 {
+    font-size: 59px;
+    line-height: 0.4;
+
+}
+
+h3 {
+    line-height: 0.4;
+    font-weight: 50;
+}
+
+/*the image and the text */
 .container {
     position: relative;
     text-align: center;
@@ -13,7 +24,23 @@ body {
 /* Centered text */
 .centered {
     position: absolute;
-    top: 50%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.anchor_button {
+
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 }
