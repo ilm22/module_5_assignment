@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 59px;
+    font-size: 54px;
     line-height: 0.4;
 
 }
@@ -116,4 +116,74 @@ select {
 
     position: relative;
     margin: 18px 0px;
+}
+
+.third_header {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#third_detail {
+    font-weight: 100;
+    color: grey;
+}
+
+
+
+.flex-parent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.food {
+    text-align: justify;
+    position: relative;
+    top: 180px;
+    background-color: rgb(175, 245, 175);
+    width: 880px;
+    padding: 35px;
+    margin: 40px;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.shelter {
+    text-align: justify;
+    position: relative;
+    top: 180px;
+    background-color: rgb(245, 220, 175);
+    width: 880px;
+    padding: 35px;
+    margin: 40px;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 10px;
+
+
+}
+
+.education {
+    text-align: justify;
+    position: relative;
+    top: 180px;
+    background-color: rgb(201, 223, 241);
+    width: 880px;
+    padding: 35px;
+    margin: 40px;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 10px;
+
+
+}
+
+#fourth_header {
+    text-align: center;
 }
