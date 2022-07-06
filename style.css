@@ -62,8 +62,26 @@ h3 {
     font: bold;
 }
 
-#hndtk {
-    box-shadow: 5px 58px 40px gray;
-    height: 80%;
-    text-align: ;
+.box {
+
+    background-color: lightgrey;
+    width: 80px;
+    padding: 35px;
+    margin: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(255, 68, 0, 0.493);
+
 }
