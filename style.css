@@ -180,10 +180,49 @@ select {
     font-weight: 100;
     font-size: 20px;
     border-radius: 10px;
-
-
 }
 
 #fourth_header {
     text-align: center;
+}
+
+.flex-parent3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor_button2 {
+
+    text-decoration: none;
+    background: linear-gradient(45deg, rgba(231, 97, 7, 0.911), rgba(238, 7, 7, 0.966));
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    left: 5px;
+    top: 40px;
+    position: relative;
+    margin: 18px 0px;
+}
+
+.contribution_text {
+    text-align: justify;
+    position: relative;
+    top: 180px;
+    margin: 40px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.contribution_image {
+    position: relative;
+    margin: 40px;
+    border-radius: 50px;
+    top: 220px;
+}
+
+#contri_header {
+    font-weight: 700;
 }
